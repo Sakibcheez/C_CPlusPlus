@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1584205420 source:l:\c,c++  code\c_cplusplus\cplusplus\main.cpp
+	<iostream>
+
+1720042556 source:l:\c,c++  code\c_cplusplus\cplusplus\src\first.cpp
+	"first.h"
+
+1720042556 l:\c,c++  code\c_cplusplus\cplusplus\include\first.h
+
