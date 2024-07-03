@@ -36,6 +36,7 @@
 		</Compiler>
 		<Unit filename="first.cpp" />
 		<Unit filename="include/first.h" />
+		<Unit filename="second.cpp" />
 		<Unit filename="src/first.cpp" />
 		<Extensions />
 	</Project>

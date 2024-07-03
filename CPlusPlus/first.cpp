@@ -23,6 +23,10 @@ cout << myLetter <<"\n";
 int x = 5;
 int y = 6;
 int sum = x + y;
-cout << sum;
+cout << sum << "\n";
+int x1 = 5, y1 = 6, z1 = 50;
+cout << x1 + y1 + z1;
+const int myNum125 = 15;  // myNum will always be 15
+//myNum125 = 10;  // error: assignment of read-only variable 'myNum'
 return 0;
 }
