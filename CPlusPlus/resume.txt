@@ -1,0 +1,14 @@
+===== Resume =====
+Name: Sakib
+Email: sadasd@gmail.com
+Phone: 2614145
+
+Education:
+Degree: ssc, Institution: scasc, Graduation Year: 2021
+
+Experience:
+Job Title: saas, Company: scac, Years Worked: 2023
+
+Skills:
+saasd
+==================
