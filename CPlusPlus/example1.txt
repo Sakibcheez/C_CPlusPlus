@@ -1,0 +1,2 @@
+Hello, World!
+This is a basic example of file I/O in C++.
