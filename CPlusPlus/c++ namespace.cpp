@@ -10,11 +10,12 @@
 
 int main() {
   std::string greeting = "Hello";
-  std::cout << greeting;
+  std::cout << greeting <<  " " ;
 
 
   std::string greeting1 = "Hello";  // Regular String
     char greeting2[] = "Hello";  // C-Style String (an array of characters)
+    std::cout << greeting2 ;
 
 return 0;
 }
