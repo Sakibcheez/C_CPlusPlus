@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1726651086 source:e:\coding\c,c++  code\c_cplusplus\labwork1\main.cpp
+	<iostream>
+	"box.h"
+
+1726650995 e:\coding\c,c++  code\c_cplusplus\labwork1\box.h
+
+1726651123 source:e:\coding\c,c++  code\c_cplusplus\labwork1\box.cpp
+	"box.h"
+
