@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1727726229 source:e:\coding\c,c++  code\c_cplusplus\onlineexam1\onlineexam\main.cpp
+	<iostream>
+	"student.h"
+
+1727726448 e:\coding\c,c++  code\c_cplusplus\onlineexam1\onlineexam\student.h
+	<string>
+	<vector>
+
+1727726448 source:e:\coding\c,c++  code\c_cplusplus\onlineexam1\onlineexam\student.cpp
+	"student.h"
+	<iostream>
+	<algorithm>
+	<cctype>
+
