@@ -48,7 +48,7 @@ void Student::calculateScore()
         // Convert both the answer and correct answer to lowercase
         if (toLowerCase(answers[i]) == toLowerCase(correctAnswers[i]))
         {
-            score += 10;  // Each question is worth 10 points
+            score += 5;  // Each question is worth 10 points
         }
     }
 }
@@ -58,5 +58,5 @@ void Student::displayResult()
     cout << "\n--- Exam Result ---" << endl;
     cout << "Name: " << name << endl;
     cout << "ID: " << id << endl;
-    cout << "Score: " << score << "/30" << endl;
+    cout << "Score: " << score << "/15" << endl;
 }
