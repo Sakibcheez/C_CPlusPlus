@@ -13,3 +13,17 @@
 	<algorithm>
 	<cctype>
 
+1727726896 source:d:\my code\c_cplusplus\onlineexam1\onlineexam\main.cpp
+	<iostream>
+	"student.h"
+
+1727726896 d:\my code\c_cplusplus\onlineexam1\onlineexam\student.h
+	<string>
+	<vector>
+
+1727726896 source:d:\my code\c_cplusplus\onlineexam1\onlineexam\student.cpp
+	"student.h"
+	<iostream>
+	<algorithm>
+	<cctype>
+
