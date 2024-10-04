@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1728073805 source:d:\my code\c_cplusplus\lab2.1\dynarr.cpp
+	"dynarr.h"
+	<iostream>
+
+1728073805 d:\my code\c_cplusplus\lab2.1\dynarr.h
+
