@@ -1,4 +1,5 @@
 #include "UnsortedType.h"
+
 template <class ItemType>
 UnsortedType<ItemType>::UnsortedType()
 {
@@ -56,8 +57,7 @@ UnsortedType<ItemType>::RetrieveItem(ItemType&
     }
 }
 template <class ItemType>
-void UnsortedType<ItemType>::InsertItem(ItemType
-                                        item)
+void UnsortedType<ItemType>::InsertItem(ItemType item)
 {
     info[length] = item;
     length++;
