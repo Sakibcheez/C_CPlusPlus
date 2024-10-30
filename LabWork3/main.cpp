@@ -27,7 +27,15 @@ int main()
     obj2.setValue(3, 'd');
 
     for(int i=0; i<4; i++)
-        cout << obj2.getValue(i) << " ";
+        cout << obj2.getValue(i) << " " << endl ;
+
+        dynArr<int> obj3(3);
+        obj3.setValue(0,1);
+        obj3.setValue(1,2);
+        obj3.setValue(2,3);
+
+        for (int i = 0; i<3; i++)
+            cout << "Index " << i << " : " << obj3.getValue(i) << "\n" ;
 
     cout << endl;
 
