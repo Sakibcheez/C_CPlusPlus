@@ -1,6 +1,10 @@
 #include <iostream>
 #include "unsortedtype.cpp"
+#include "studentinfo.h"
+
 using namespace std;
+
+// lab 4 unsorted
 
 int main()
 {
@@ -91,4 +95,44 @@ int main()
     }
     cout << endl;
     list1.ResetList();
+
+
+
+
+
+
+    UnsortedType<studentInfo> list2;
+
+    studentInfo s1(15234, "Jon", 2.6), s2(13732, "Tyrion", 3.9);
+    studentInfo s3(13569, "Sandor", 1.2), s4(15467, "Ramsey", 3.1);
+    studentInfo s5(16285, "Arya", 3.1);
+
+    list2.InsertItem(s1);
+    list2.InsertItem(s2);
+    list2.InsertItem(s3);
+    list2.InsertItem(s4);
+    list2.InsertItem(s5);
+
+
+    studentInfo t;
+    for(int i=0; i<list2.LengthIs(); i++)
+    {
+        list2.GetNextItem(t);// t = s1, t=s2, t=s3
+        t.print();// s1.print(), s2.print()
+    }
+    cout << endl;
+    list2.ResetList();
+
+
+    studentInfo deletedStudent(15467, "", 0);
+    list2.DeleteItem(deletedStudent);
+
+    for(int i=0; i<list2.LengthIs(); i++)
+    {
+        list2.GetNextItem(t);// t = s1, t=s2, t=s3
+        t.print();// s1.print(), s2.print()
+    }
+    cout << endl;
+    list2.ResetList();
+
 }

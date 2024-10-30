@@ -1,4 +1,3 @@
-
 const int MAX_ITEMS = 5;
 
 template <class ItemType>
@@ -19,4 +18,3 @@ private:
     ItemType info[MAX_ITEMS];
     int currentPos;
 };
-

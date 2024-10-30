@@ -72,4 +72,3 @@ void UnsortedType<ItemType>::DeleteItem(ItemType
     info[location] = info[length - 1];
     length--;
 }
-
