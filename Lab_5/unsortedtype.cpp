@@ -28,8 +28,7 @@ void UnsortedType<ItemType>::ResetList()
 }
 template <class ItemType>
 void
-UnsortedType<ItemType>::GetNextItem(ItemType&
-                                    item)
+UnsortedType<ItemType>::GetNextItem(ItemType& item)
 {
     currentPos++;
     item = info [currentPos] ;

@@ -98,7 +98,7 @@ int main()
 
 
 
-
+// student info starts
 
 
     UnsortedType<studentInfo> list2;
