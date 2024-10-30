@@ -1,8 +1,9 @@
-
 #include "complex.h"
 #include <iostream>
+
 using namespace std;
-Complex::Complex()
+
+Complex::Complex()  // :: is scope resolution operator
 {
     Real = 0;
     Imaginary = 0;
@@ -14,7 +15,7 @@ Complex::Complex(double r, double i)
 }
 Complex Complex::operator+(Complex a)
 {
-    Complex t;
+    Complex t; // object creating t
     t.Real = Real + a.Real;
     t.Imaginary = Imaginary + a.Imaginary;
     return t;
@@ -42,7 +43,8 @@ bool Complex::operator!=(Complex a)
 }
 void Complex::Print()
 {
-    cout << Real << endl;
-    cout << Imaginary << endl;
+    cout << "Real Part: " <<Real << endl;
+    cout << "Imaginary Part: "<<Imaginary << endl;
+    cout << "Expression: " << Real << "+" << Imaginary <<"i" ;
 }
 

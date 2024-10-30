@@ -9,5 +9,13 @@
 	"dynarr.h"
 	<iostream>
 
-1728074156 e:\coding\c,c++  code\c_cplusplus\labwork3\dynarr.h
+1730301332 e:\coding\c,c++  code\c_cplusplus\labwork3\dynarr.h
+
+1730301216 source:e:\coding\c,c++  code\c_cplusplus\labwork3\main.cpp
+	<iostream>
+	"dynarr.cpp"
+
+1730301582 e:\coding\c,c++  code\c_cplusplus\labwork3\dynarr.cpp
+	"dynarr.h"
+	<iostream>
 

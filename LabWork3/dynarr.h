@@ -1,5 +1,5 @@
-
 template <class T>
+
 class dynArr
 {
 private:
@@ -7,7 +7,7 @@ private:
     int size;
 public:
     dynArr(int);
-    ~dynArr();
+    ~dynArr(); // ~ refers destructor
     void setValue(int, T);
     T getValue(int);
 };
