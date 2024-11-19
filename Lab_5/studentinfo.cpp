@@ -3,9 +3,11 @@
 studentInfo::studentInfo()
 {
     this->id = 0;
-    name = "";
+    name = " ";
     cgpa = 0;
 }
+
+// The -> operator in C++ is called the member access operator or arrow operator
 
 studentInfo::studentInfo(int id, string name, float cgpa)
 {

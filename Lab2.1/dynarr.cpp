@@ -1,6 +1,8 @@
 #include "dynarr.h"
 #include <iostream>
+
 using namespace std;
+
 dynArr::dynArr()
 {
     data = NULL;

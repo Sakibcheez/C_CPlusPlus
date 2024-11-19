@@ -134,5 +134,23 @@ int main()
     }
     cout << endl;
     list2.ResetList();
+/*
+    // Retrieve student with ID 13569
+    studentInfo searchStudent(13569, "", 0);  // Only ID is needed for search
+    bool found = false;
+
+    list2.RetrieveItem(searchStudent, found);
+
+    if(found)
+    {
+        cout << "Record found: ";
+        searchStudent.print();
+    }
+    else
+    {
+        cout << "Record with ID 13569 is not found." << endl;
+    }
+*/
+
 
 }
