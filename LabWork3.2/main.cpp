@@ -20,7 +20,7 @@ int main()
     temp = a-b;
     temp.Print();
 
-        cout << "multi\n" ;
+        cout << "\nmulti\n" ;
     temp = a*b;
     temp.Print();
 
