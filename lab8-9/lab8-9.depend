@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1732511956 source:c:\users\lib 604\desktop\lab8-9\stacktype.cpp
+	"StackType.h"
+
+1732511956 c:\users\lib 604\desktop\lab8-9\stacktype.h
+
+1732515100 source:c:\users\lib 604\desktop\lab8-9\main.cpp
+	<iostream>
+	"stacktype.cpp"
+	"quetype.cpp"
+
+1732511956 c:\users\lib 604\desktop\lab8-9\stacktype.cpp
+	"StackType.h"
+
+1732513520 source:c:\users\lib 604\desktop\lab8-9\quetype.cpp
+	"quetype.h"
+
+1732513520 c:\users\lib 604\desktop\lab8-9\quetype.h
+
+1732513520 c:\users\lib 604\desktop\lab8-9\quetype.cpp
+	"quetype.h"
+
