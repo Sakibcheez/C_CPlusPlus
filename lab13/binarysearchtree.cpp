@@ -1,6 +1,7 @@
 #include "binarysearchtree.h"
 #include "quetype.cpp"
 #include <iostream>
+
 using namespace std;
 template <class ItemType>
 TreeType<ItemType>::TreeType()

@@ -20,3 +20,24 @@
 1732513520 c:\users\lib 604\desktop\lab8-9\quetype.cpp
 	"quetype.h"
 
+1733064147 source:d:\my code\c_cplusplus\lab8-9\main.cpp
+	<iostream>
+	"stacktype.cpp"
+	"quetype.cpp"
+
+1733064147 d:\my code\c_cplusplus\lab8-9\stacktype.cpp
+	"StackType.h"
+
+1733064147 d:\my code\c_cplusplus\lab8-9\stacktype.h
+
+1733064147 d:\my code\c_cplusplus\lab8-9\quetype.cpp
+	"quetype.h"
+
+1733064147 d:\my code\c_cplusplus\lab8-9\quetype.h
+
+1733064147 source:d:\my code\c_cplusplus\lab8-9\quetype.cpp
+	"quetype.h"
+
+1733064147 source:d:\my code\c_cplusplus\lab8-9\stacktype.cpp
+	"StackType.h"
+
