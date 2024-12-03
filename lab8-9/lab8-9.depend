@@ -44,14 +44,14 @@
 1733216097 source:c:\users\sakib ahmed shishir\documents\github\c_cplusplus\lab8-9\quetype.cpp
 	"quetype.h"
 
-1732513520 c:\users\sakib ahmed shishir\documents\github\c_cplusplus\lab8-9\quetype.h
+1733238114 c:\users\sakib ahmed shishir\documents\github\c_cplusplus\lab8-9\quetype.h
 
 1732511956 source:c:\users\sakib ahmed shishir\documents\github\c_cplusplus\lab8-9\stacktype.cpp
 	"StackType.h"
 
 1732511956 c:\users\sakib ahmed shishir\documents\github\c_cplusplus\lab8-9\stacktype.h
 
-1733216731 source:c:\users\sakib ahmed shishir\documents\github\c_cplusplus\lab8-9\main.cpp
+1733236278 source:c:\users\sakib ahmed shishir\documents\github\c_cplusplus\lab8-9\main.cpp
 	<iostream>
 	"stacktype.cpp"
 	"quetype.cpp"

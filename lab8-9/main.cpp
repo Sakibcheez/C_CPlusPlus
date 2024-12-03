@@ -6,15 +6,15 @@ using namespace std;
 
 int main()
 {
+/*
+  StackType<int> stk;
 
-StackType<int> stk;
+    stk.Push(5);
+    stk.Push(7);
+    stk.Push(4);
+    stk.Push(2);
 
-       stk.Push(5);
-       stk.Push(7);
-       stk.Push(4);
-       stk.Push(2);
-
-       if(stk.IsEmpty())
+    if(stk.IsEmpty())
         cout << "stack is Empty" << endl;
     else
         cout << "stack is not Empty" << endl;
@@ -24,43 +24,50 @@ StackType<int> stk;
     else
         cout << "stack is not full" << endl;
 
-        stk.Push(3);
+    stk.Push(3);  // No overflow check needed here, because you should be checking if full first
 
-        if(stk.IsFull())
+    if(stk.IsFull())
         cout << "stack is full" << endl;
     else
         cout << "stack is not full" << endl;
 
-      int a = stk.Top();
+   int a = stk.Top();
+    cout << "Top element: " << a << endl;
 
-      cout << a << endl ;
+   StackType<int> temp;
 
-       StackType<int> temp;
-
-      cout << "Stack contents: ";
+    cout << "Stack contents: ";
     while (!stk.IsEmpty()) {
-        int top = stk.Top();  // Get the top element
-        cout << top << " ";  // Print the element
-        temp.Push(top);  // Push the element onto the temporary stack
-        stk.Pop();  // Pop the element from the original stack
+        int top = stk.Top();
+        cout << top << " ";
+        temp.Push(top);
+        stk.Pop();
     }
 
     cout << endl;
 
-    // Restore the original stack from the temporary stack
+    // Restore the original stack from the temporary stack (reverse order to maintain original stack sequence)
     while (!temp.IsEmpty()) {
         stk.Push(temp.Top());
         temp.Pop();
     }
 
+    // Display the stack contents again to show the restoration of the original stack
+    cout << "Restored Stack contents: ";
+    while (!stk.IsEmpty()) {
+        int top = stk.Top();
+        cout << top << " ";
+        stk.Pop();
+    }
 
-
+    cout << endl;
+*/
 
 /*
 StackType<char> stk;
     bool flag = true;
 
-    string s = "(((";
+    string s = "((()))";
 
     for(int i=0; i<s.length(); i++)
     {
@@ -87,6 +94,8 @@ StackType<char> stk;
 
     cout << endl << endl << endl;
 
+
+
     int n = 15;
     QueType<string> q(n);
     string a = "";
@@ -105,5 +114,55 @@ StackType<char> stk;
             break;
         }
     }
-    */
+*/
+        QueType <int> que1(5) ;
+
+        if(que1.IsEmpty())
+            cout << "Queue is Empty" << endl ;
+        else
+            cout << "Not Empty" << endl ;
+
+        que1.Enqueue(5);
+        que1.Enqueue(7);
+        que1.Enqueue(4);
+        que1.Enqueue(2);
+
+        if(que1.IsEmpty())
+            cout << "Queue is Empty" << endl ;
+        else
+            cout << "Not Empty" << endl ;
+
+            if(que1.IsFull())
+            cout << "Queue is Full" << endl ;
+        else
+            cout << "Not Full" << endl ;
+
+            que1.Enqueue(6);
+
+            if(que1.IsFull())
+            cout << "Queue is Full" << endl ;
+        else
+            cout << "Not Full" << endl ;
+
+            que1.Enqueue(7);
+
+            //while (!que1.IsEmpty()) {
+        //cout << que1.front() << " ";  // Print the front element
+        //que1.Dequeue;  // Remove the front element
+   // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
