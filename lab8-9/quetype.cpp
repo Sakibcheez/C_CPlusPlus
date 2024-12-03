@@ -1,4 +1,5 @@
 #include "quetype.h"
+
 template<class ItemType>
 QueType<ItemType>::QueType(int max)
 {

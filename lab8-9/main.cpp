@@ -1,11 +1,63 @@
 #include <iostream>
 #include "stacktype.cpp"
 #include "quetype.cpp"
+
 using namespace std;
 
 int main()
 {
-    StackType<char> stk;
+
+StackType<int> stk;
+
+       stk.Push(5);
+       stk.Push(7);
+       stk.Push(4);
+       stk.Push(2);
+
+       if(stk.IsEmpty())
+        cout << "stack is Empty" << endl;
+    else
+        cout << "stack is not Empty" << endl;
+
+    if(stk.IsFull())
+        cout << "stack is full" << endl;
+    else
+        cout << "stack is not full" << endl;
+
+        stk.Push(3);
+
+        if(stk.IsFull())
+        cout << "stack is full" << endl;
+    else
+        cout << "stack is not full" << endl;
+
+      int a = stk.Top();
+
+      cout << a << endl ;
+
+       StackType<int> temp;
+
+      cout << "Stack contents: ";
+    while (!stk.IsEmpty()) {
+        int top = stk.Top();  // Get the top element
+        cout << top << " ";  // Print the element
+        temp.Push(top);  // Push the element onto the temporary stack
+        stk.Pop();  // Pop the element from the original stack
+    }
+
+    cout << endl;
+
+    // Restore the original stack from the temporary stack
+    while (!temp.IsEmpty()) {
+        stk.Push(temp.Top());
+        temp.Pop();
+    }
+
+
+
+
+/*
+StackType<char> stk;
     bool flag = true;
 
     string s = "(((";
@@ -53,4 +105,5 @@ int main()
             break;
         }
     }
+    */
 }
