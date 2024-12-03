@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1733239056 source:c:\users\sakib ahmed shishir\documents\github\c_cplusplus\lab11.1\main.cpp
+	<iostream>
+	"unsertedtype.h"
+
+1733239277 c:\users\sakib ahmed shishir\documents\github\c_cplusplus\lab11.1\unsertedtype.h
+
+1733239405 source:c:\users\sakib ahmed shishir\documents\github\c_cplusplus\lab11.1\unsortedtype.cpp
+	"unsertedtype.h"
+	<iostream>
+

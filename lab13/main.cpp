@@ -45,7 +45,7 @@ int main()
         cout << "Item is found" << endl;
     else
         cout << "Item is not found" << endl;
-
+//inorder
     tree.ResetTree(IN_ORDER);
     found = false;
     while(found != true)
@@ -54,7 +54,7 @@ int main()
         cout << temp << " ";
     }
     cout << endl;
-
+// preorder
     tree.ResetTree(PRE_ORDER);
     found = false;
     while(found != true)
@@ -63,7 +63,7 @@ int main()
         cout << temp << " ";
     }
     cout << endl;
-
+//post order
     tree.ResetTree(POST_ORDER);
     found = false;
     while(found != true)
@@ -72,7 +72,17 @@ int main()
         cout << temp << " ";
     }
     cout << endl;
-
+//print
     tree.Print();
+
+    // empty
+    tree.MakeEmpty();
+
+    cout << endl ;
+
+    if(tree.IsEmpty())
+        cout << "Tree is empty" << endl;
+    else
+        cout << "Tree is not empty" << endl;
 
 }
