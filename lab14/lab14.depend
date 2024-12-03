@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1733119171 source:c:\users\lib 604\downloads\lab14\heaptype.cpp
+	"heaptype.h"
+
+1733119171 c:\users\lib 604\downloads\lab14\heaptype.h
+
+1733119171 source:c:\users\lib 604\downloads\lab14\pqtype.cpp
+	"pqtype.h"
+
+1733119171 c:\users\lib 604\downloads\lab14\pqtype.h
+	"heaptype.h"
+	"heaptype.cpp"
+
+1733119791 c:\users\lib 604\downloads\lab14\heaptype.cpp
+	"heaptype.h"
+
+1733119411 source:c:\users\lib 604\downloads\lab14\main.cpp
+	<iostream>
+	"pqtype.cpp"
+
+1733119171 c:\users\lib 604\downloads\lab14\pqtype.cpp
+	"pqtype.h"
+
